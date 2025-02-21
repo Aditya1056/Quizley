@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.modal{
+    width:100%;
+    position:fixed;
+    top:6%;
+    left:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index:50;
+    /* border:1px solid green; */
+    box-sizing: border-box;
+}
+
+.modal-content{
+    min-width:35%;
+    background:white;
+    padding:1.2rem 2rem;
+    box-sizing: border-box;
+    border-radius:10px;
+    /* border:1px solid red; */
+    margin-top:10rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(232, 236, 240);
+}
+
+@media(max-width:980px){
+    .modal-content{
+        min-width:50%;
+        max-width:90%;
+        overflow: auto;
+    }
+}

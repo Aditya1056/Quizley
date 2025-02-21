@@ -1,0 +1,48 @@
+.questiona{
+    width:100%;
+    margin: auto;
+    padding:13px;
+    border-bottom:2px solid rgb(130, 137, 146);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+}
+
+.questiona_content{
+    color:rgb(33, 32, 54);
+}
+
+.questiona_options{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top:8px;
+}
+
+.option{
+    width:100%;
+    padding:5px 0px;
+    color:rgb(51, 51, 96);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.label{
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.option input{
+    cursor: pointer;
+    accent-color:rgb(54, 50, 82);
+}
+
+.correct-ans{
+    color:rgb(49, 80, 100);
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:14px;
+}

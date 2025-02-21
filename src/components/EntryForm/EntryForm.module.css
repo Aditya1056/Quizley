@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.entry-form{
+    width:40%;
+    margin:auto;
+    margin-top:6rem;
+    border-radius:10px;
+    background:rgb(220, 221, 227);
+    padding:21px 8px;
+}
+
+.entry-form h2{
+    width:100%;
+    text-align:center;
+    color:rgb(57, 59, 86);
+}
+
+.form{
+    width:80%;
+    margin:auto;
+    margin-top:2rem;
+}
+
+.form-control{
+    width:100%;
+    margin-top:20px;
+}
+
+.enter-btn{
+    width:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    outline:none;
+    border:none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background:rgb(141, 143, 173);
+    border-radius:14px;
+    font-size:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.15s, background 0.15s;
+}
+
+.enter-btn:hover{
+    color: white;
+    background:rgb(40, 42, 63);
+}
+
+.enter-btn:disabled{
+    opacity:0.5;
+    cursor: not-allowed;
+}
+
+.quizley-des{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(42, 42, 66);
+    margin-top:1.5rem;
+}
+
+.quizley-des p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:14px;
+}
+
+.info-icon{
+    margin-right:5px;
+}
+
+@media(max-width:980px){
+    .entry-form{
+        width:90%;
+    }
+}

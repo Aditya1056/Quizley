@@ -1,0 +1,31 @@
+.questionb{
+    width:100%;
+    margin: auto;
+    padding:13px;
+    box-sizing: border-box;
+}
+
+.questionb_content{
+    color:rgb(33, 32, 54);
+}
+
+.questionb input{
+    width:100%;
+    padding-top:12px;
+    padding-bottom:8px;
+    padding-left:6px;
+    padding-right:6px;
+    font-size:14px;
+    color:rgb(39, 42, 75);
+    outline:none;
+    border:none;
+    /* border-radius:5px; */
+    border-bottom: 2px solid rgb(144, 152, 171);
+    background:transparent;
+}
+
+.correct-ans{
+    color:rgb(49, 80, 100);
+    margin-top:10px;
+    font-size:14px;
+}

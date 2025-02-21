@@ -1,0 +1,23 @@
+.table-row td{
+    text-align: center;
+    border-radius:5px;
+    font-size:15px;
+    height:25px;
+    background:rgb(212, 220, 225);
+    color:rgb(27, 48, 79);
+}
+
+.view-btn{
+    border:none;
+    outline:none;
+    background:transparent;
+    font-size:15px;
+    color:rgb(63, 88, 110);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.view-btn:hover{
+    color:rgb(81, 33, 177);
+}
